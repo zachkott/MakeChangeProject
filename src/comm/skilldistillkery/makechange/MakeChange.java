@@ -161,6 +161,10 @@ sc.close();
 //This method will be called if the user pays the exact amount
 	public static void exactAmount() {
 		System.out.println("Thank you for providing the exact amount!");
+		System.out.println();
+		System.out.println("***** Balance *****");
+		System.out.println("*****   $0    *****");
+		System.out.println("***** Balance *****");
 	}
 
 	//This method will be called if the user pays less than the price of the item
